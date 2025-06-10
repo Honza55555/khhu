@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: ukazkovy-kvetinovy-bot
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python main.py
+    envVars:
+      - key: BOT_TOKEN
+        value: __SEM_VLOŽ_SVŮJ_TOKEN__
